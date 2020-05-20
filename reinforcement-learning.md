@@ -10,6 +10,11 @@
 
 ## Self-play
 
+### Grandmaster level in StarCraft II using multi-agent reinforcement learning
+Vinyals et al. (2019)
+
+We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.
+
 ### Emergent Complexity vis Multi-agent Competition
 Bansal et al. (2018)
 
