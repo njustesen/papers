@@ -17,7 +17,11 @@ We point out that a competitive multi-agent environment trained with self-play c
 
 ## Curiosity-based RL
 
-### Go-Explore
+### Go-Explore: a New Approach for Hard-Exploration Problems
+Ecoffet et al. (2019)
+
+We introduce a new algorithm called Go-Explore. It exploits the following principles: (1) remember states that have
+previously been visited, (2) first return to a promising state (without exploration), then explore from it, and (3) solve simulated environments through exploiting any available means (including by introducing determinism), then robustify (create a policy that can reliably perform the solution) via imitation learning. The combined effect of these principles generates dramatic performance improvements on hardexploration problems. On Montezuma’s Revenge, without being provided any domain knowledge, Go-Explore scores over 43,000 points, almost 4 times the previous state of the art.
 
 ## Input Augmentation/Modification
 
