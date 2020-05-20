@@ -10,7 +10,7 @@ We propose a new method for learning from a single demonstration to solve hard e
 human demonstrations, as proposed in other recent works, our approach is to maximize rewards directly. Our agent is trained using off-the-shelf reinforcement learning, but starts every episode by resetting to a state from a demonstration.
 
 ## Self-Imitation Learning
-Oh et al.. (2018)
+Oh et al. (2018)
 
 To study how exploiting past good experiences affects learning, we propose a Self-Imitation Learning (SIL) algorithm which
 learns to imitate the agent’s own past good decisions. In brief, the SIL algorithm stores experiences in a replay buffer,
