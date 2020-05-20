@@ -8,6 +8,13 @@
 
 ### DQN + variants
 
+## Self-play
+
+### Emergent Complexity vis Multi-agent Competition
+Bansal et al. (2018)
+
+We point out that a competitive multi-agent environment trained with self-play can produce behaviors that are far more complex than the environment itself. We also point out that such environments come with a natural curriculum, because for any skill level, an environment full of agents of this level will have the right level of difficulty.
+
 ## Curiosity-based RL
 
 ### Go-Explore
