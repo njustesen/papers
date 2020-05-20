@@ -14,10 +14,13 @@ human demonstrations, as proposed in other recent works, our approach is to maxi
 ## Self-Imitation Learning
 Oh et al. (2018)
 
-To study how exploiting past good experiences affects learning, we propose a Self-Imitation Learning (SIL) algorithm which
-learns to imitate the agent’s own past good decisions. In brief, the SIL algorithm stores experiences in a replay buffer,
-learns to imitate state-action pairs in the replay buffer only when the return in the past episode is greater than the agent’s
-value estimate. 
+We propose a Self-Imitation Learning (SIL) algorithm which learns to imitate the agent’s own past good decisions. In brief, the SIL algorithm stores experiences in a replay buffer, learns to imitate state-action pairs in the replay buffer only when the return in the past episode is greater than the agent’s value estimate. 
+
+## Deep Q-learning from Demonstrations
+Hester et al. (2017)
+
+We study a setting where the agent may access data from previous control of the system. We present an algorithm, Deep Q-learning from Demonstrations (DQfD), that leverages small sets of demonstration data to massively accelerate the learning process even from relatively small amounts of demonstration data and is able to automatically assess the necessary ratio
+of demonstration data while learning thanks to a prioritized replay mechanism.
 
 # Diversity-based IL
 
