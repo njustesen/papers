@@ -53,7 +53,11 @@ We point out that a competitive multi-agent environment trained with self-play c
 
 ## Exploration
 
-EXPLORATION BY RANDOM NETWORK DISTILLATION
+### Exploration byRandom Network Destillation
+Burda et al. (2018)
+
+We introduce an exploration bonus for deep reinforcement learning methods that is easy to implement and adds minimal overhead to the computation performed. The bonus is the error of a neural network predicting features of the observations
+given by a fixed randomly initialized neural network.
 
 ### First return then explore
 Ecoffet et al. (2020)
