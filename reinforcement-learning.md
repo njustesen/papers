@@ -88,6 +88,11 @@ While the history of machine learning so far largely encompasses a series of pro
 
 ## Model-based RL
 
+### Dream to Control: Learing Behaviors by Latent Imagination
+Hafner (2020)
+
+We present Dreamer, a reinforcement learning agent that solves long-horizon tasks from images purely by latent imagination. We efficiently learn behaviors by propagating analytic gradients of learned state values back through trajectories imagined in the compact state space of a learned world model. 
+
 ### World Models
 Ha & Schmidhuber (2018)
 
