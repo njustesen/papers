@@ -43,6 +43,11 @@ We point out that a competitive multi-agent environment trained with self-play c
 
 ## Exploration
 
+### First return then explore
+Ecoffet et al. (2020)
+
+We hypothesise that the main impediment to effective exploration originates from algorithms forgetting how to reach previously visited states (“detachment”) and from failing to first return to a state before exploring from it (“derailment”). We introduce Go-Explore, a family of algorithms that addresses these two challenges directly through the simple principles of explicitly remembering promising states and first returning to such states before intentionally exploring. Go-Explore solves all heretofore unsolved Atari games (meaning those for which algorithms could not previously outperform humans when evaluated following current community standards for Atari and surpasses the state of the art on all hard-exploration games.
+
 ### Go-Explore: a New Approach for Hard-Exploration Problems
 Ecoffet et al. (2019)
 
