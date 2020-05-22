@@ -53,6 +53,8 @@ We point out that a competitive multi-agent environment trained with self-play c
 
 ## Exploration
 
+EXPLORATION BY RANDOM NETWORK DISTILLATION
+
 ### First return then explore
 Ecoffet et al. (2020)
 
