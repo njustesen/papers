@@ -106,3 +106,9 @@ We explore building generative neural network models of popular reinforcement le
 
 ## Unsupervised
 Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning
+
+## Offline RL
+Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems
+Levine et al. (2020)
+
+We aim to provide the reader with the conceptual tools needed to get started on research on offline reinforcement learning algorithms: reinforcement learning algorithms that utilize previously collected data, without additional online data collection.
