@@ -94,6 +94,11 @@ While the history of machine learning so far largely encompasses a series of pro
 
 ## Model-based RL
 
+### Planning to Explore via Self-Supervised World Models
+Sekar et al (2020)
+
+We present Plan2Explore, a self-supervised reinforcement learning agent that tackles both these challenges through a new approach to self-supervised exploration and fast adaptation to new tasks, which need not be known during exploration. During exploration, unlike prior methods which retrospectively compute the novelty of observations after the agent has already reached them, our agent acts efficiently by leveraging planning to seek out expected future novelty.
+
 ### Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization
 Matsushima et al. (2020)
 
