@@ -94,8 +94,13 @@ While the history of machine learning so far largely encompasses a series of pro
 
 ## Model-based RL
 
+### Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization
+Matsushima et al. (2020)
+
+We propose a novel model-based algorithm, Behavior-Regularized Model-ENsemble (BREMEN) that can effectively optimize a policy offline using 10-20 times fewer data than prior works. Furthermore, the recursive application of BREMEN is able to achieve impressive deployment efficiency while maintaining the same or better sample efficiency, learning successful policies from scratch on simulated robotic environments with only 5-10 deployments, compared to typical values of hundreds to millions in standard RL baselines.
+
 ### Dream to Control: Learing Behaviors by Latent Imagination
-Hafner (2020)
+Hafner et al. (2020)
 
 We present Dreamer, a reinforcement learning agent that solves long-horizon tasks from images purely by latent imagination. We efficiently learn behaviors by propagating analytic gradients of learned state values back through trajectories imagined in the compact state space of a learned world model. 
 
