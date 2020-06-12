@@ -17,6 +17,9 @@ Engstrom et al. (2019)
 
 We study the roots of algorithmic progress in deep policy gradient algorithms through a case study on two popular algorithms: Proximal Policy Optimization (PPO) and Trust Region Policy Optimization (TRPO). Specifically, we investigate the consequences of "code-level optimizations:" algorithm augmentations found only in implementations or described as auxiliary details to the core algorithm. Seemingly of secondary importance, such optimizations turn out to have a major impact on agent behavior. Our results show that they (a) are responsible for most of PPO's gain in cumulative reward over TRPO, and (b) fundamentally change how RL methods function.
 
+*Related resources:*
+https://costa.sh/blog-the-32-implementation-details-of-ppo.html
+
 ### Proximal Policy Optimization Algorithms
 Schulman et al. (2017)
 
