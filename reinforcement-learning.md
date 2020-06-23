@@ -54,12 +54,12 @@ Bansal et al. (2018)
 
 We point out that a competitive multi-agent environment trained with self-play can produce behaviors that are far more complex than the environment itself. We also point out that such environments come with a natural curriculum, because for any skill level, an environment full of agents of this level will have the right level of difficulty.
 
+### Deep Reinforcement Learning from Self-Play in Imperfect-Information Games
+Heinrich et al. (2016)
+
+We introduce the first scalable end-to-end approach to learning approximate Nash equilibria without prior domain knowledge. Our method combines fictitious self-play with deep reinforcement learning.
+
 ## Exploration
-
-### Deep Reinforcement Learning from Human Preferences
-Christiano et al. (2017)
-
-We explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function.
 
 ### First return then explore
 Ecoffet et al. (2020)
@@ -77,6 +77,11 @@ Burda et al. (2018)
 
 We introduce an exploration bonus for deep reinforcement learning methods that is easy to implement and adds minimal overhead to the computation performed. The bonus is the error of a neural network predicting features of the observations
 given by a fixed randomly initialized neural network.
+
+### Deep Reinforcement Learning from Human Preferences
+Christiano et al. (2017)
+
+We explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function.
 
 ## Generalization / Regularization
 
