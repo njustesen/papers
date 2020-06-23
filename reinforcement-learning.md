@@ -56,6 +56,11 @@ We point out that a competitive multi-agent environment trained with self-play c
 
 ## Exploration
 
+### Deep Reinforcement Learning from Human Preferences
+Christiano et al. (2017)
+
+We explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function.
+
 ### First return then explore
 Ecoffet et al. (2020)
 
