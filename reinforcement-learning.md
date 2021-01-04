@@ -44,7 +44,7 @@ We present the first deep learning model to successfully learn control policies 
 
 ## Self-play
 
-### SCC: an efficient deep reinforcement learning agent mastering the game of StarCraft II
+### SCC: An Efficient Deep Reinforcement Learning Agent Mastering the Game of StarCraft II
 Wang et al. (2020)
 
 We propose a deep reinforcement learning agent, StarCraft Commander (SCC). With order of magnitude less computation, it demonstrates top human performance
