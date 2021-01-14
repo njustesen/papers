@@ -68,6 +68,16 @@ We introduce the first scalable end-to-end approach to learning approximate Nash
 
 ## Exploration
 
+### QD-RL: Efficient Mixing of Quality and Diversity in Reinforcement Learning
+Cideron et al. (2020)
+
+We train a population of off-policy deep RL agents to simultaneously maximize
+diversity inside the population and the return of the agents. QD-RL selects agents
+from the diversity-return Pareto Front, resulting in stable and efficient population
+updates. Our experiments on the ANT-MAZE environment show that QD-RL can
+solve challenging exploration and control problems with deceptive rewards while
+being more than 15 times more sample efficient than its evolutionary counterparts.
+
 ### First return then explore
 Ecoffet et al. (2020)
 
