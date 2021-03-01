@@ -124,6 +124,11 @@ While the history of machine learning so far largely encompasses a series of pro
 
 ## Model-based RL
 
+### Mastering Atari with Discrete World Models
+Hafner et al (2020)
+
+We introduce DreamerV2, a reinforcement learning agent that learns behaviors purely from predictions in the compact latent space of a powerful world model. The world model uses discrete representations and is trained separately from the policy. DreamerV2 constitutes the first agent that achieves human-level performance on the Atari benchmark of 55 tasks by learning behaviors inside a separately trained world model.
+
 ### Planning to Explore via Self-Supervised World Models
 Sekar et al (2020)
 
