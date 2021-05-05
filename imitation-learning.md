@@ -29,6 +29,8 @@ of demonstration data while learning thanks to a prioritized replay mechanism.
 # Behavioral Cloning
 
 ## Benchmarking End-to-End Behavioural Cloning on Video Games
+Kanervisto & Pussinen (2020)
+
 We take a step towards a general approach and study the general applicability of behavioural cloning on twelve video games, including six modern video games (published after 2010), by using human demonstrations as training data. Our results show that these agents cannot match humans in raw performance but do learn basic dynamics and rules. 
 
 # Diversity-based IL
