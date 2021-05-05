@@ -26,6 +26,11 @@ Hester et al. (2017)
 We study a setting where the agent may access data from previous control of the system. We present an algorithm, Deep Q-learning from Demonstrations (DQfD), that leverages small sets of demonstration data to massively accelerate the learning process even from relatively small amounts of demonstration data and is able to automatically assess the necessary ratio
 of demonstration data while learning thanks to a prioritized replay mechanism.
 
+# Behavioral Cloning
+
+## Benchmarking End-to-End Behavioural Cloning on Video Games
+We take a step towards a general approach and study the general applicability of behavioural cloning on twelve video games, including six modern video games (published after 2010), by using human demonstrations as training data. Our results show that these agents cannot match humans in raw performance but do learn basic dynamics and rules. 
+
 # Diversity-based IL
 
 ## BRIL
