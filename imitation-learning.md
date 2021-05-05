@@ -1,6 +1,9 @@
 # Imitation Learning
 
 ## DART: Noise Injection for Robust Imitation Learning
+Laskey (2017)
+
+We propose a new algorithm, DART (Disturbances for Augmenting Robot Trajectories), that collects demonstrations with injected noise, and optimizes the noise level to approximate the error of the robot's trained policy during data collection.
 
 # RL-based IL
 
